@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AddTag</title>
+</head>
+<body>
+  <main class="container-main">
+    <section class="section">
+      <h3 class="section__heading">Tags</h3>
+      <div class="section__container-list" id="container-tags"> 
+        <input type="checkbox" id="checkbox__input">
+        <newTag for="click-checkbox" class="text">Readonly</newTag>
+        <input id="new-tag" 
+          class="section__input-new" 
+          type="text"
+          maxlength="20">
+        <button class="section__btn">Add</button>
+        <ul class="list-tags" id="list-tags"></ul>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
